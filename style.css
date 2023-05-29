@@ -1,0 +1,165 @@
+body{
+    margin: 30px 150px;
+    background-color: rgb(239, 231, 227);
+}
+
+/* ------------ navigation-bar style_css ------------*/
+.navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navigationElem{
+    display: inline;
+}
+.navigationElem a{
+    display: inline-block;
+    color:black;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+}
+.navigationElem:hover{
+    background-color: gray;
+}
+/* ------------ navigation-bar style_css ------------*/
+
+/* ------------ Introduction-page style_css ------------*/
+.Introduction_Section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*요소들을 컨테이너의 중앙으로 정렬*/
+    align-items: flex-start; /*컨테이너의 최상단으로 정렬*/
+    margin: 100px 100px;
+}
+
+.Profile_Picture{
+    width: 400px;
+    height: 600px;
+    margin-right: 60px;
+    transform: scale(1); /* 크기 hold */
+}
+
+.Introduction_Text>h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.Introduction_Text>p{
+    font-size: 15px;
+    font-weight: 500px;
+    line-height: 1.6;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.Introduction_Text>p:nth-last-child(1){
+    font-size: 25px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+/* ------------ Introduction-page style_css ------------*/
+
+/* ------------ footer style_css ------------*/
+.fa-brands, .fa-solid{
+    color: rgb(0, 0, 0, 0.4);
+}
+.sns-pictogram{
+    text-align: center;
+}
+.sns-pictogram i {
+    margin-right: 60px;
+}
+footer i:hover {
+    transform: translate(3px, -3px);
+}
+
+.comment {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(0, 0, 0, 0.4);
+}
+/* ------------ footer style_css ------------*/
+
+/* ------------ Interest style_css ------------*/
+.Interest_Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /*align-content: center;*/
+    margin: 100px 150px;
+    margin-top: 20px;
+}
+
+.Interest_Text>h4{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.Interest_Text>p{
+    font-size: 15px;
+    font-weight: 500px;
+    line-height: 1.6;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    margin-left: 30px;
+}
+
+.logoImg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.springLogo{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(62, 212, 190, 0.3);
+    border-radius: 100px;
+    transform: scale(1); /* 크기 hold */
+    padding: 30px;
+}
+.unityLogo{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(62, 212, 190, 0.3);
+    border-radius: 100px;
+    transform: scale(1); /* 크기 hold */
+    padding: 30px;
+}
+/* ------------ Interest style_css ------------*/
+
+/* ------------ Hobby-Activities style_css ------------*/
+.Hobby-Activities_Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 100px 150px;
+}
+
+.Hobby-Activities_Text>h4{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.Hobby-Activities_Text>p{
+    font-size: 15px;
+    font-weight: 500px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    margin-left: 30px;
+}
+
+.meossaPage{
+    width: 900px;
+    height: 400px;
+}
+.warmupPage{
+    width: 300px;
+    height: 300px;
+}
+/* ------------ Hobby-Activities style_css ------------*/
