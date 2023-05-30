@@ -157,7 +157,7 @@ footer i:hover {
     .navigationElem a{
         display: inline-block;
         color:black;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: bold;
         padding: 2%;
         text-decoration: none;
@@ -185,22 +185,22 @@ footer i:hover {
         font-size: 40px;
     }
     .Introduction_Text>p{
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 1px;
     }
     .Introduction_Text>p:nth-last-child(1){
-        font-size: 15px;
+        font-size: 25px;
     }
     /* ------------ Introduction-page style_css ------------*/
     
     /* ------------ footer style_css ------------*/
     .sns-pictogram i {
-        font-size: 30px;
+        font-size: 35px;
         margin-right: 15px;
     }
     
     .comment {
-        font-size: 5px;
+        font-size: 20px;
     }
     /* ------------ footer style_css ------------*/
     
@@ -226,13 +226,13 @@ footer i:hover {
     }
     
     .springLogo{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         padding: 3%;
     }
     .unityLogo{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         padding: 3%;
     }
     /* ------------ Interest style_css ------------*/
@@ -243,23 +243,23 @@ footer i:hover {
     }
     
     .Hobby-Activities_Text>h4{
-        font-size: 15px;
+        font-size: 40px;
     }
     .Hobby-Activities_Text>p{
-        font-size: 1px;
+        font-size: 20px;
     }
     
     .backjunPage{
         width: 350px;
-        height: 200px;
+        height: 300px;
     }
     .githubPage{
         width: 350px;
-        height: 200px;
+        height: 300px;
     }
     .meossaPage{
         width: 350px;
-        height: 200px;
+        height: 300px;
     }
     .warmupPage{
         width: 150px;
@@ -370,24 +370,24 @@ footer i:hover {
     }
     
     .backjunPage{
-        width: 600px;
-        height: 300px;
+        width: 700px;
+        height: 400px;
     }
     .githubPage{
-        width: 600px;
-        height: 300px;
+        width: 700px;
+        height: 400px;
     }
     .meossaPage{
-        width: 6500px;
-        height: 350px;
+        width: 650px;
+        height: 450px;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 3% 3%;
     }
     .warmupPage{
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
     /* ------------ Hobby-Activities style_css ------------*/
 }
