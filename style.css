@@ -157,7 +157,7 @@ footer i:hover {
     .navigationElem a{
         display: inline-block;
         color:black;
-        font-size: 13px;
+        font-size: 18px;
         font-weight: bold;
         padding: 2%;
         text-decoration: none;
@@ -182,20 +182,20 @@ footer i:hover {
     }
     
     .Introduction_Text>h2{
-        font-size: 15px;
+        font-size: 40px;
     }
     .Introduction_Text>p{
-        font-size: 0.1px;
+        font-size: 25px;
         font-weight: 1px;
     }
     .Introduction_Text>p:nth-last-child(1){
-        font-size: 2px;
+        font-size: 15px;
     }
     /* ------------ Introduction-page style_css ------------*/
     
     /* ------------ footer style_css ------------*/
     .sns-pictogram i {
-        font-size: 25px;
+        font-size: 30px;
         margin-right: 15px;
     }
     
@@ -211,11 +211,11 @@ footer i:hover {
     }
 
     .Interest_Text>h4{
-        font-size: 15px;
+        font-size: 40px;
         font-weight: bold;
     }
     .Interest_Text>p{
-        font-size: 1px;
+        font-size: 20px;
     }
     
     .logoImg{
@@ -277,7 +277,7 @@ footer i:hover {
     .navigationElem a{
         display: inline-block;
         color:black;
-        font-size: 18px;
+        font-size: 25px;
         font-weight: bold;
         padding: 2%;
         text-decoration: none;
@@ -295,32 +295,32 @@ footer i:hover {
     }
     
     .Profile_Picture{
-        width: 250px;
-        height: 350px;
+        width: 550px;
+        height: 850px;
         margin-right: 5%;
         transform: scale(1); /* 크기 hold */
     }
     
     .Introduction_Text>h2{
-        font-size: 25px;
+        font-size: 50px;
     }
     .Introduction_Text>p{
-        font-size: 1px;
+        font-size: 30px;
         font-weight: 1px;
     }
     .Introduction_Text>p:nth-last-child(1){
-        font-size: 5px;
+        font-size: 40px;
     }
     /* ------------ Introduction-page style_css ------------*/
     
     /* ------------ footer style_css ------------*/
     .sns-pictogram i {
-        font-size: 25px;
-        margin-right: 15px;
+        font-size: 50px;
+        margin-right: 10%;
     }
     
     .comment {
-        font-size: 5px;
+        font-size: 20px;
     }
     /* ------------ footer style_css ------------*/
     
@@ -331,11 +331,11 @@ footer i:hover {
     }
 
     .Interest_Text>h4{
-        font-size: 25px;
+        font-size: 50px;
         font-weight: bold;
     }
     .Interest_Text>p{
-        font-size: 3px;
+        font-size: 30px;
     }
     
     .logoImg{
@@ -345,13 +345,13 @@ footer i:hover {
     }
     
     .springLogo{
-        width: 150px;
-        height: 150px;
+        width: 15%;
+        height: 15%;
         padding: 3%;
     }
     .unityLogo{
-        width: 150px;
-        height: 150px;
+        width: 15%;
+        height: 15%;
         padding: 3%;
     }
     /* ------------ Interest style_css ------------*/
@@ -363,10 +363,10 @@ footer i:hover {
     }
     
     .Hobby-Activities_Text>h4{
-        font-size: 25px;
+        font-size: 50px;
     }
     .Hobby-Activities_Text>p{
-        font-size: 5px;
+        font-size: 30px;
     }
     
     .backjunPage{
