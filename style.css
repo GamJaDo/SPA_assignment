@@ -1,5 +1,5 @@
 body{
-    margin: 30px 150px;
+    margin: 3% 15%;
     background-color: rgb(239, 231, 227);
 }
 
@@ -16,9 +16,9 @@ body{
 .navigationElem a{
     display: inline-block;
     color:black;
-    font-size: x-large;
+    font-size: 20px;
     font-weight: bold;
-    padding: 20px;
+    padding: 2%;
     text-decoration: none;
 }
 .navigationElem:hover{
@@ -32,14 +32,11 @@ body{
     flex-direction: row;
     justify-content: center; /*요소들을 컨테이너의 중앙으로 정렬*/
     align-items: flex-start; /*컨테이너의 최상단으로 정렬*/
-    margin: 100px 100px;
+    margin: 10% 10%;
 }
 
 .Profile_Picture{
-    width: 400px;
-    height: 600px;
-    margin-right: 60px;
-    transform: scale(1); /* 크기 hold */
+    margin-right: 6%;
 }
 
 .Introduction_Text>h2{
@@ -87,48 +84,44 @@ footer i:hover {
     flex-direction: column;
     justify-content: flex-start;
     /*align-content: center;*/
-    margin: 100px 150px;
-    margin-top: 20px;
+    margin: 10% 15%;
+    margin-top: 2%;
 }
 
 .Interest_Text>h4{
     font-size: 50px;
     font-weight: bold;
     font-family: 'Noto Sans KR', sans-serif;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 .Interest_Text>p{
     font-size: 15px;
     font-weight: 500px;
     line-height: 1.6;
     font-family: 'IBM Plex Sans KR', sans-serif;
-    margin-left: 30px;
+    margin-left: 3%;
 }
 
 .logoImg{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 30px;
-    margin-left: 30px;
+    margin-bottom: 3%;
+    margin-left: 3%;
 }
 
 .springLogo{
-    width: 200px;
-    height: 200px;
+
     border: 2px solid rgb(62, 212, 190, 0.3);
     border-radius: 100px;
-    transform: scale(1); /* 크기 hold */
-    padding: 30px;
+    padding: 3%;
 }
 .unityLogo{
-    width: 200px;
-    height: 200px;
+
     border: 2px solid rgb(62, 212, 190, 0.3);
     border-radius: 100px;
-    transform: scale(1); /* 크기 hold */
-    padding: 30px;
+    padding: 3%;
 }
 /* ------------ Interest style_css ------------*/
 
@@ -137,15 +130,15 @@ footer i:hover {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    margin: 100px 150px;
+    margin: 10% 15%;
 }
 
 .Hobby-Activities_Text>h4{
     font-size: 50px;
     font-weight: bold;
     font-family: 'Noto Sans KR', sans-serif;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 .Hobby-Activities_Text>p{
     font-size: 15px;
@@ -153,13 +146,248 @@ footer i:hover {
     font-family: 'IBM Plex Sans KR', sans-serif;
     margin-left: 30px;
 }
-
-.meossaPage{
-    width: 900px;
-    height: 400px;
-}
-.warmupPage{
-    width: 300px;
-    height: 300px;
-}
 /* ------------ Hobby-Activities style_css ------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media(max-width:700px){
+    body{
+        margin: 2% 6%;
+    }
+    
+    /* ------------ navigation-bar style_css ------------*/
+    .navigationElem a{
+        display: inline-block;
+        color:black;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 2%;
+        text-decoration: none;
+    }
+    .navigationElem:hover{
+        background-color: gray;
+    }
+    /* ------------ navigation-bar style_css ------------*/
+    
+    /* ------------ Introduction-page style_css ------------*/
+    .Introduction_Section {
+        flex-direction: column;
+        align-items: center;
+        margin: 3% 3%;
+    }
+    
+    .Profile_Picture{
+        width: 250px;
+        height: 350px;
+        margin-right: 5%;
+        transform: scale(1); /* 크기 hold */
+    }
+    
+    .Introduction_Text>h2{
+        font-size: 15px;
+    }
+    .Introduction_Text>p{
+        font-size: 0.1px;
+        font-weight: 1px;
+    }
+    .Introduction_Text>p:nth-last-child(1){
+        font-size: 2px;
+    }
+    /* ------------ Introduction-page style_css ------------*/
+    
+    /* ------------ footer style_css ------------*/
+    .sns-pictogram i {
+        font-size: 25px;
+        margin-right: 15px;
+    }
+    
+    .comment {
+        font-size: 5px;
+    }
+    /* ------------ footer style_css ------------*/
+    
+    /* ------------ Interest style_css ------------*/
+    .Interest_Section{
+        align-items: flex-start;
+        margin: 3% 3%;
+    }
+
+    .Interest_Text>h4{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .Interest_Text>p{
+        font-size: 1px;
+    }
+    
+    .logoImg{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 3% 3%;
+    }
+    
+    .springLogo{
+        width: 150px;
+        height: 150px;
+        padding: 3%;
+    }
+    .unityLogo{
+        width: 150px;
+        height: 150px;
+        padding: 3%;
+    }
+    /* ------------ Interest style_css ------------*/
+    
+    /* ------------ Hobby-Activities style_css ------------*/
+    .Hobby-Activities_Section{
+        margin: 3% 3%;
+    }
+    
+    .Hobby-Activities_Text>h4{
+        font-size: 15px;
+    }
+    .Hobby-Activities_Text>p{
+        font-size: 1px;
+    }
+    
+    .backjunPage{
+        width: 350px;
+        height: 200px;
+    }
+    .githubPage{
+        width: 350px;
+        height: 200px;
+    }
+    .meossaPage{
+        width: 350px;
+        height: 200px;
+    }
+    .warmupPage{
+        width: 150px;
+        height: 150px;
+    }
+    /* ------------ Hobby-Activities style_css ------------*/
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media (min-width:701px) and (max-width:1200px){
+    body{
+        margin: 0% 5%;
+    }
+    
+    /* ------------ navigation-bar style_css ------------*/
+    .navigationElem a{
+        display: inline-block;
+        color:black;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 2%;
+        text-decoration: none;
+    }
+    .navigationElem:hover{
+        background-color: gray;
+    }
+    /* ------------ navigation-bar style_css ------------*/
+    
+    /* ------------ Introduction-page style_css ------------*/
+    .Introduction_Section {
+        flex-direction: column;
+        align-items: center;
+        margin: 3% 3%;
+    }
+    
+    .Profile_Picture{
+        width: 250px;
+        height: 350px;
+        margin-right: 5%;
+        transform: scale(1); /* 크기 hold */
+    }
+    
+    .Introduction_Text>h2{
+        font-size: 25px;
+    }
+    .Introduction_Text>p{
+        font-size: 1px;
+        font-weight: 1px;
+    }
+    .Introduction_Text>p:nth-last-child(1){
+        font-size: 5px;
+    }
+    /* ------------ Introduction-page style_css ------------*/
+    
+    /* ------------ footer style_css ------------*/
+    .sns-pictogram i {
+        font-size: 25px;
+        margin-right: 15px;
+    }
+    
+    .comment {
+        font-size: 5px;
+    }
+    /* ------------ footer style_css ------------*/
+    
+    /* ------------ Interest style_css ------------*/
+    .Interest_Section{
+        align-items: flex-start;
+        margin: 3% 3%;
+    }
+
+    .Interest_Text>h4{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .Interest_Text>p{
+        font-size: 3px;
+    }
+    
+    .logoImg{
+        flex-direction: column;
+        align-items: center;
+        margin: 3% 3%;
+    }
+    
+    .springLogo{
+        width: 150px;
+        height: 150px;
+        padding: 3%;
+    }
+    .unityLogo{
+        width: 150px;
+        height: 150px;
+        padding: 3%;
+    }
+    /* ------------ Interest style_css ------------*/
+    
+    /* ------------ Hobby-Activities style_css ------------*/
+    .Hobby-Activities_Section{
+        align-items: center;
+        margin: 10% 10%;
+    }
+    
+    .Hobby-Activities_Text>h4{
+        font-size: 25px;
+    }
+    .Hobby-Activities_Text>p{
+        font-size: 5px;
+    }
+    
+    .backjunPage{
+        width: 600px;
+        height: 300px;
+    }
+    .githubPage{
+        width: 600px;
+        height: 300px;
+    }
+    .meossaPage{
+        width: 6500px;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3% 3%;
+    }
+    .warmupPage{
+        width: 200px;
+        height: 200px;
+    }
+    /* ------------ Hobby-Activities style_css ------------*/
+}
