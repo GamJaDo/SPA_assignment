@@ -157,7 +157,7 @@ footer i:hover {
     .navigationElem a{
         display: inline-block;
         color:black;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: bold;
         padding: 2%;
         text-decoration: none;
@@ -268,7 +268,7 @@ footer i:hover {
     /* ------------ Hobby-Activities style_css ------------*/
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-@media (min-width:701px) and (max-width:1300px){
+@media (min-width:701px) and (max-width:1000px){
     body{
         margin: 0% 5%;
     }
@@ -345,13 +345,13 @@ footer i:hover {
     }
     
     .springLogo{
-        width: 15%;
-        height: 15%;
+        width: 300px;
+        height: 300px;
         padding: 3%;
     }
     .unityLogo{
-        width: 15%;
-        height: 15%;
+        width: 300px;
+        height: 300px;
         padding: 3%;
     }
     /* ------------ Interest style_css ------------*/
@@ -391,3 +391,157 @@ footer i:hover {
     }
     /* ------------ Hobby-Activities style_css ------------*/
 }
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media (min-width:1001px) and (max-width:1250px){
+    body{
+        margin: 3% 15%;
+        background-color: rgb(239, 231, 227);
+    }
+    
+    /* ------------ navigation-bar style_css ------------*/
+    .navigation{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .navigationElem{
+        display: inline;
+    }
+    .navigationElem a{
+        display: inline-block;
+        color:black;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 2%;
+        text-decoration: none;
+    }
+    .navigationElem:hover{
+        background-color: gray;
+    }
+    /* ------------ navigation-bar style_css ------------*/
+    
+    /* ------------ Introduction-page style_css ------------*/
+    .Introduction_Section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center; /*요소들을 컨테이너의 중앙으로 정렬*/
+        align-items: flex-start; /*컨테이너의 최상단으로 정렬*/
+        margin: 10% 10%;
+    }
+    
+    .Profile_Picture{
+        margin-right: 6%;
+    }
+    
+    .Introduction_Text>h2{
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    .Introduction_Text>p{
+        font-size: 12px;
+        font-weight: 500px;
+        line-height: 1.6;
+        font-family: 'IBM Plex Sans KR', sans-serif;
+    }
+    .Introduction_Text>p:nth-last-child(1){
+        font-size: 20px;
+        font-family: 'IBM Plex Sans KR', sans-serif;
+    }
+    /* ------------ Introduction-page style_css ------------*/
+    
+    /* ------------ footer style_css ------------*/
+    .fa-brands, .fa-solid{
+        color: rgb(0, 0, 0, 0.4);
+    }
+    .sns-pictogram{
+        text-align: center;
+    }
+    .sns-pictogram i {
+        font-size: 40px;
+        margin-right: 5%px;
+    }
+    footer i:hover {
+        transform: translate(3px, -3px);
+    }
+    
+    .comment {
+        text-align: center;
+        font-size: 16px;
+        font-style: italic;
+        color: rgb(0, 0, 0, 0.4);
+    }
+    /* ------------ footer style_css ------------*/
+    
+    /* ------------ Interest style_css ------------*/
+    .Interest_Section{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /*align-content: center;*/
+        margin: 10% 15%;
+        margin-top: 2%;
+    }
+    
+    .Interest_Text>h4{
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Noto Sans KR', sans-serif;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .Interest_Text>p{
+        font-size: 12px;
+        font-weight: 500px;
+        line-height: 1.6;
+        font-family: 'IBM Plex Sans KR', sans-serif;
+        margin-left: 3%;
+    }
+    
+    .logoImg{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 3%;
+        margin-left: 3%;
+    }
+    
+    .springLogo{
+    
+        border: 2px solid rgb(62, 212, 190, 0.3);
+        border-radius: 100px;
+        padding: 3%;
+    }
+    .unityLogo{
+    
+        border: 2px solid rgb(62, 212, 190, 0.3);
+        border-radius: 100px;
+        padding: 3%;
+    }
+    /* ------------ Interest style_css ------------*/
+    
+    /* ------------ Hobby-Activities style_css ------------*/
+    .Hobby-Activities_Section{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        margin: 10% 15%;
+    }
+    
+    .Hobby-Activities_Text>h4{
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Noto Sans KR', sans-serif;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .Hobby-Activities_Text>p{
+        font-size: 12px;
+        font-weight: 500px;
+        font-family: 'IBM Plex Sans KR', sans-serif;
+        margin-left: 30px;
+    }
+    /* ------------ Hobby-Activities style_css ------------*/
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
