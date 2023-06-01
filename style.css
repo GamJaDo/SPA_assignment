@@ -295,8 +295,8 @@ footer i:hover {
     }
     
     .Profile_Picture{
-        width: 550px;
-        height: 850px;
+        width: 400px;
+        height: 700px;
         margin-right: 5%;
         transform: scale(1); /* 크기 hold */
     }
