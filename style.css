@@ -302,25 +302,25 @@ footer i:hover {
     }
     
     .Introduction_Text>h2{
-        font-size: 50px;
+        font-size: 40px;
     }
     .Introduction_Text>p{
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 1px;
     }
     .Introduction_Text>p:nth-last-child(1){
-        font-size: 40px;
+        font-size: 25px;
     }
     /* ------------ Introduction-page style_css ------------*/
     
     /* ------------ footer style_css ------------*/
     .sns-pictogram i {
-        font-size: 50px;
+        font-size: 40px;
         margin-right: 10%;
     }
     
     .comment {
-        font-size: 20px;
+        font-size: 15px;
     }
     /* ------------ footer style_css ------------*/
     
@@ -331,11 +331,11 @@ footer i:hover {
     }
 
     .Interest_Text>h4{
-        font-size: 50px;
+        font-size: 40px;
         font-weight: bold;
     }
     .Interest_Text>p{
-        font-size: 30px;
+        font-size: 20px;
     }
     
     .logoImg{
@@ -363,10 +363,10 @@ footer i:hover {
     }
     
     .Hobby-Activities_Text>h4{
-        font-size: 50px;
+        font-size: 40px;
     }
     .Hobby-Activities_Text>p{
-        font-size: 30px;
+        font-size: 20px;
     }
     
     .backjunPage{
