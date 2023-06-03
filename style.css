@@ -343,13 +343,13 @@ footer i:hover {
     }
     
     .springLogo{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         padding: 3%;
     }
     .unityLogo{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         padding: 3%;
     }
     /* ------------ Interest style_css ------------*/
@@ -409,7 +409,7 @@ footer i:hover {
     .navigationElem a{
         display: inline-block;
         color:black;
-        font-size: 25px;
+        font-size: 28px;
         font-weight: bold;
         padding: 2%;
         text-decoration: none;
@@ -438,13 +438,13 @@ footer i:hover {
         font-family: 'Noto Sans KR', sans-serif;
     }
     .Introduction_Text>p{
-        font-size: 12px;
+        font-size: 18px;
         font-weight: 500px;
         line-height: 1.6;
         font-family: 'IBM Plex Sans KR', sans-serif;
     }
     .Introduction_Text>p:nth-last-child(1){
-        font-size: 20px;
+        font-size: 22px;
         font-family: 'IBM Plex Sans KR', sans-serif;
     }
     /* ------------ Introduction-page style_css ------------*/
@@ -490,7 +490,7 @@ footer i:hover {
         margin-right: 3%;
     }
     .Interest_Text>p{
-        font-size: 12px;
+        font-size: 18px;
         font-weight: 500px;
         line-height: 1.6;
         font-family: 'IBM Plex Sans KR', sans-serif;
@@ -537,7 +537,7 @@ footer i:hover {
         margin-right: 3%;
     }
     .Hobby-Activities_Text>p{
-        font-size: 12px;
+        font-size: 18px;
         font-weight: 500px;
         font-family: 'IBM Plex Sans KR', sans-serif;
         margin-left: 30px;
