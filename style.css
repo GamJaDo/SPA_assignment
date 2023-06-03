@@ -157,7 +157,7 @@ footer i:hover {
     .navigationElem a{
         display: inline-block;
         color:black;
-        font-size: 17px;
+        font-size: 15.5px;
         font-weight: bold;
         padding: 2%;
         text-decoration: none;
@@ -194,12 +194,12 @@ footer i:hover {
     
     /* ------------ footer style_css ------------*/
     .sns-pictogram i {
-        font-size: 25px;
+        font-size: 30px;
         margin-right: 15px;
     }
     
     .comment {
-        font-size: 15px;
+        font-size: 12px;
     }
     /* ------------ footer style_css ------------*/
     
