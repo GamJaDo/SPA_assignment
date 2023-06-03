@@ -39,7 +39,7 @@ body{
     margin-right: 6%;
 }
 
-.Introduction_Text>h2{
+.Introduction_Text>h4{
     font-size: 50px;
     font-weight: bold;
     font-family: 'Noto Sans KR', sans-serif;
@@ -148,7 +148,7 @@ footer i:hover {
 }
 /* ------------ Hobby-Activities style_css ------------*/
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-@media(min-width:301px) and (max-width:750px){
+@media(min-width:291px) and (max-width:750px){
     body{
         margin: 2% 6%;
     }
@@ -157,7 +157,7 @@ footer i:hover {
     .navigationElem a{
         display: inline-block;
         color:black;
-        font-size: 19px;
+        font-size: 17px;
         font-weight: bold;
         padding: 2%;
         text-decoration: none;
@@ -180,7 +180,7 @@ footer i:hover {
         margin-right: 5%;
     }
     
-    .Introduction_Text>h2{
+    .Introduction_Text>h4{
         font-size: 37px;
     }
     .Introduction_Text>p{
@@ -299,7 +299,7 @@ footer i:hover {
         margin-right: 5%;
     }
     
-    .Introduction_Text>h2{
+    .Introduction_Text>h4{
         font-size: 40px;
     }
     .Introduction_Text>p{
@@ -432,7 +432,7 @@ footer i:hover {
         margin-right: 6%;
     }
     
-    .Introduction_Text>h2{
+    .Introduction_Text>h4{
         font-size: 40px;
         font-weight: bold;
         font-family: 'Noto Sans KR', sans-serif;
@@ -546,7 +546,7 @@ footer i:hover {
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-@media(max-width:300px){
+@media(max-width:290px){
     body{
         margin: 1% 3%;
     }
@@ -578,7 +578,7 @@ footer i:hover {
         margin-right: 3%;
     }
     
-    .Introduction_Text>h2{
+    .Introduction_Text>h4{
         font-size: 18px;
     }
     .Introduction_Text>p{
